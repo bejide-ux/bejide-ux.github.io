@@ -104,8 +104,20 @@ a:hover{text-decoration:underline}
     font-weight:700;
     margin-bottom:17px;
 }
+.hero-gfm-link{
+    color:#e8ca7c;
+    text-decoration:none;
+    border-bottom:1px solid rgba(232,202,124,.65);
+}
+.hero-gfm-link:hover{
+    color:#fff;
+    border-bottom-color:#fff;
+    text-decoration:none;
+}
+
 .hero-summary{
     max-width:820px;
+    text-align:justify;
     color:#eef5f0;
     font-size:15.5px;
 }
@@ -137,7 +149,7 @@ section{margin-bottom:48px}
     border-bottom:2px solid var(--green);
     padding-bottom:8px;
 }
-.profile{font-size:15.5px;color:#3e4742}
+.profile{font-size:15.5px;color:#3e4742;text-align:justify}
 
 .interests{
     display:grid;
@@ -291,7 +303,7 @@ footer{
 
     <div class="hero-copy">
         <h1>Oluwafemi David Bejide</h1>
-        <div class="role">Geo-Information Scientist · Remote Sensing · GeoAI · Geospatial Foundation Models</div>
+        <div class="role">Geo-Information Scientist · Remote Sensing · GeoAI · <a href="#gfm" class="hero-gfm-link">Geospatial Foundation Models</a></div>
 
         <p class="hero-summary">
             Geo-information scientist specialising in remote sensing and GeoAI,
@@ -338,7 +350,7 @@ forest degradation, and ecosystem resilience across tropical landscapes.
 <section>
 <h2 class="section-title">Research Interests</h2>
 <div class="interests">
-<div class="interest"><strong>Geospatial Foundation Models &amp; Earth Observation Embeddings</strong></div>
+<div class="interest"><a href="#gfm"><strong>Geospatial Foundation Models &amp; Earth Observation Embeddings</strong></a></div>
 <div class="interest">Forest structure, degradation, and land-use modelling</div>
 <div class="interest">Multi-sensor Earth observation (LiDAR, SAR, optical fusion)</div>
 <div class="interest">GeoAI and machine learning for environmental monitoring</div>
@@ -438,7 +450,7 @@ forest degradation, and ecosystem resilience across tropical landscapes.
 </ul>
 </div>
 
-<div class="skill">
+<div class="skill" id="gfm">
 <h3>GeoAI &amp; Geospatial Foundation Models</h3>
 <ul>
 <li>Geospatial Foundation Models (GFMs)</li>
@@ -560,7 +572,7 @@ Mapping Soil Organic Carbon Sequestration Hotspots and Identifying Suitable Area
 <section>
 <h2 class="section-title">Selected Research Contributions</h2>
 <div class="grid2">
-<div class="card"><strong>Geospatial Foundation Models:</strong> Evaluating the complementary information provided by AlphaEarth Foundation embeddings and conventional multi-sensor predictors for GEDI-based canopy-height estimation.</div>
+<div class="card"><a href="#gfm"><strong>Geospatial Foundation Models:</strong> Evaluating the complementary information provided by AlphaEarth Foundation embeddings and conventional multi-sensor predictors for GEDI-based canopy-height estimation.</a></div>
 <div class="card"><strong>Multi-sensor GeoAI:</strong> Developing GEDI–SAR–optical fusion approaches for canopy-height and biomass estimation.</div>
 <div class="card"><strong>Spectral–Structural Analysis:</strong> Demonstrating spectral–structural divergence in forest extent and vegetation mapping.</div>
 <div class="card"><strong>Ecosystem Monitoring:</strong> Investigating structural–carbon relationships and developing frameworks for diagnosing Earth-observation inconsistencies.</div>
